@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#link-more {
+  width:fit-content;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:blue;
+  font-size: x-large;
+  border-style: solid;
+  border-color: black;
+  padding:10px;
+  background-color: rgba(192,192,192,0.3);
 }
 
-.App-link {
-  color: #61dafb;
+#link {
+  color:blueviolet;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: blueviolet;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+#submit-button {
+  background-color: white;
+  color:blueviolet;
+  border:2px solid #DD9BCF;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: #DD9BCF;
+  color:white;
+}
+
+
+#new-film {
+  border-style: solid;
+  border-radius: 10%;
+  width:fit-content;
+  padding:1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #fee4f9
 }
